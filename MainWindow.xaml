@@ -1,0 +1,22 @@
+﻿<Window x:Class="Analis.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Analis"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="320">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+        <Button Content="Товар" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Категории" HorizontalAlignment="Left" Margin="59,0,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
+        <Button Content="Клиент" HorizontalAlignment="Left" Margin="133,0,0,0" VerticalAlignment="Top" Click="Button_Click_3"/>
+        <Button Content="Периоды" HorizontalAlignment="Left" Margin="191,0,0,0" VerticalAlignment="Top" Click="Button_Click_4"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="261,0,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Frame NavigationUIVisibility='Hidden' Name="MainFrame" Grid.Row="2"></Frame>
+
+    </Grid>
+</Window>
